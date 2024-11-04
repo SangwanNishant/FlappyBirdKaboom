@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "vite preview"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "kaboom": "^3000.1.17",
+    "kaboom": "^3000.1.17"
+  },
+  "devDependencies": {
     "vite": "^5.4.10"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
